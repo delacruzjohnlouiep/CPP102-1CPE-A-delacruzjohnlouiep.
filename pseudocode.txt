@@ -1,0 +1,24 @@
+START
+INPUT num1
+INPUT num2
+PROCESS sum = num1 + num2
+DISPLAY sum
+END
+
+START
+INPUT Score1
+INPUT Score2
+INPUT Score3
+PROCESS Average = (Score1+Score2+Score3) / 3
+DISPLAY Average
+END
+
+START
+INPUT number
+IF number MOD 2 = 0 THEN
+DISPLAY "Even"
+ELSE
+DISPLAY "Odd"
+END IF
+END
+
